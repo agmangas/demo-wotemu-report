@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="text/javascript">
+      window.PlotlyConfig = { MathJaxConfig: "local" };
+    </script>
+  </head>
+  <body>
+    <div class="container-fluid p-3" id="root"><div><div class="row"><div class="col"><h4>clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg</h4></div></div><div class="row mt-2"><div class="col"><div class="alert alert-warning">The task was shut down prematurely (before the stack was manually stopped)</div></div></div><div class="row mt-2"><div class="col"><div class="alert alert-danger">It seems there was an error during the task execution</div></div></div><div class="row mt-2"><div class="col"><div class="card"><div class="card-body"><h5 class="card-title">Task details</h5><dl class="row mb-0"><dt class="col-sm-3 text-muted">Desired state</dt><dd class="col-sm-9">shutdown</dd><dt class="col-sm-3 text-muted">Node ID</dt><dd class="col-sm-9"><code>xcz6py8flzqz9wzlnqflbq5ol</code></dd><dt class="col-sm-3 text-muted">Service ID</dt><dd class="col-sm-9"><code>ufxv5z59nic1jz2z31exsttp5</code></dd><dt class="col-sm-3 text-muted">Task ID</dt><dd class="col-sm-9"><code>uqni9v25e4idfg8fh94vkinmg</code></dd><dt class="col-sm-3 text-muted">Container ID</dt><dd class="col-sm-9"><code>edd93a9140b34828a271dd350c7fb8190c44b3e00f8fdfdc3b6a75f51a361a71</code></dd><dt class="col-sm-3 text-muted">Created at</dt><dd class="col-sm-9">2020-12-16T10:11:33.104358+00:00</dd><dt class="col-sm-3 text-muted">Updated at</dt><dd class="col-sm-9">2020-12-16T10:12:03.387388+00:00</dd><dt class="col-sm-3 text-muted">Started at</dt><dd class="col-sm-9">2020-12-16T10:11:51.951704+00:00</dd></dl></div></div></div></div><div class="row mt-2"><div class="col"><div class="row"></div></div></div><div class="row mt-2"><div class="col"><div class="card"><div class="card-body small bg-danger text-white"><h5 class="card-title">Logs</h5><h6 class="card-subtitle mb-2 ">Snapshot of the most recent log entries</h6><pre class="mb-0 text-light">clock_clock_error.2.uqni9v25e4id@manager1    |  'task_id': 'uqni9v25e4idfg8fh94vkinmg',
+clock_clock_error.2.uqni9v25e4id@manager1    |  'time': 1608113511.9517038,
+clock_clock_error.2.uqni9v25e4id@manager1    |  'uname': {'machine': 'x86_64',
+clock_clock_error.2.uqni9v25e4id@manager1    |            'node': 'clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg',
+clock_clock_error.2.uqni9v25e4id@manager1    |            'processor': 'x86_64',
+clock_clock_error.2.uqni9v25e4id@manager1    |            'release': '4.15.0-121-generic',
+clock_clock_error.2.uqni9v25e4id@manager1    |            'system': 'Linux',
+clock_clock_error.2.uqni9v25e4id@manager1    |            'version': '#123-Ubuntu SMP Mon Oct 5 16:16:40 UTC 2020'}}
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:51 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.utils[1] DEBUG /usr/bin/cgget -v -r cpuacct.usage /: b'/:\n4021176487\n\n'
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:51 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.monitor.packet[1] DEBUG Starting LiveCapture on interface eth0 with display filter: tcp.port==1883 or tcp.port==80 or tcp.port==81 or tcp.port==5683 or udp.port==5683
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:56 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.utils[1] DEBUG /usr/bin/cgget -v -r cpuacct.usage /: b'/:\n5411571076\n\n'
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:56 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.utils[1] DEBUG /usr/bin/cgget -v -r cpu.cfs_period_us /: b'/:\n100000\n\n'
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.utils[1] DEBUG /usr/bin/cgget -v -r cpu.cfs_quota_us /: b'/:\n-1\n\n'
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.utils[1] DEBUG /usr/bin/cgget -v -r memory.usage_in_bytes /: b'/:\n207376384\n\n'
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.utils[1] DEBUG /usr/bin/cgget -v -r memory.limit_in_bytes /: b'/:\n9223372036854771712\n\n'
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.cli.app[1] ERROR WoT app error: Exception('Error raised at 2020-12-16 10:11:57.355102 UTC')
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.cli.app[1] INFO Cancelling WoT app task: &lt;Task finished name='Task-4' coro=&lt;app() done, defined at /root/wotemu/examples/app/error.py:9&gt; exception=Exception('Error raised at 2020-12-16 10:11:57.355102 UTC')&gt;
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.cli.app[1] WARNING Error during WoT app cancelation
+clock_clock_error.2.uqni9v25e4id@manager1    | Traceback (most recent call last):
+clock_clock_error.2.uqni9v25e4id@manager1    |   File "/usr/local/lib/python3.8/dist-packages/wotemu/cli/app.py", line 132, in _stop
+clock_clock_error.2.uqni9v25e4id@manager1    |     await asyncio.wait_for(app_task, _TIMEOUT)
+clock_clock_error.2.uqni9v25e4id@manager1    |   File "/usr/lib/python3.8/asyncio/tasks.py", line 483, in wait_for
+clock_clock_error.2.uqni9v25e4id@manager1    |     return fut.result()
+clock_clock_error.2.uqni9v25e4id@manager1    |   File "/root/wotemu/examples/app/error.py", line 19, in app
+clock_clock_error.2.uqni9v25e4id@manager1    |     raise Exception(f"Error raised at {now} UTC")
+clock_clock_error.2.uqni9v25e4id@manager1    | Exception: Error raised at 2020-12-16 10:11:57.355102 UTC
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.cli.app[1] DEBUG Shutting down Servient: &lt;wotpy.wot.servient.Servient object at 0x7f89d040cb80&gt;
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.monitor.base[1] DEBUG Stopping node monitor
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.monitor.system[1] DEBUG Cancelled system usage task
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.monitor.packet[1] DEBUG Cancelled Task for: &lt;SpawnProcess name='PysharkCapture-eth0' pid=66 parent=1 started daemon&gt;
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.monitor.packet[1] DEBUG Setting stop event for: &lt;SpawnProcess name='PysharkCapture-eth0' pid=66 parent=1 started daemon&gt;
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:11:57 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.monitor.packet[1] DEBUG Waiting 5.0 secs for exit: &lt;SpawnProcess name='PysharkCapture-eth0' pid=66 parent=1 started daemon&gt;
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:12:02 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.monitor.packet[1] WARNING &lt;SpawnProcess name='PysharkCapture-eth0' pid=66 parent=1 started daemon&gt; did not terminate with stop event
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:12:02 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.monitor.packet[1] INFO Terminating process: &lt;SpawnProcess name='PysharkCapture-eth0' pid=66 parent=1 started daemon&gt;
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:12:02 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.monitor.packet[1] DEBUG Waiting 5.0 secs for exit: &lt;SpawnProcess name='PysharkCapture-eth0' pid=66 parent=1 started daemon&gt;
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:12:02 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.monitor.base[1] DEBUG Closed Redis connection
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:12:02 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.cli.app[1] DEBUG Closing Redis
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:12:02 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.cli.app[1] DEBUG Stopping loop
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:12:02 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.cli.app[1] DEBUG Closing loop
+clock_clock_error.2.uqni9v25e4id@manager1    | 2020-12-16 10:12:02 clock_clock_error.2.uqni9v25e4idfg8fh94vkinmg wotemu.cli.app[1] WARNING Exiting with code: 1</pre></div></div></div></div></div></div>
+  </body>
+</html>
