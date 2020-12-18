@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="text/javascript">
+      window.PlotlyConfig = { MathJaxConfig: "local" };
+    </script>
+  </head>
+  <body>
+    <div class="container-fluid p-3" id="root"><div><div class="row"><div class="col"><h4>clock_clock_error.1.yz1ytlhxe57ka1v64lu92wi63</h4></div></div><div class="row mt-2"><div class="col"><div class="card"><div class="card-body"><h5 class="card-title">Task details</h5><dl class="row mb-0"><dt class="col-sm-3 text-muted">Desired state</dt><dd class="col-sm-9">running</dd><dt class="col-sm-3 text-muted">Node ID</dt><dd class="col-sm-9"><code>zo2dpz4cnsb84izsqco9mt2a4</code></dd><dt class="col-sm-3 text-muted">Service ID</dt><dd class="col-sm-9"><code>mrsl75ozi1i2t0tpqjqm6tmhn</code></dd><dt class="col-sm-3 text-muted">Task ID</dt><dd class="col-sm-9"><code>yz1ytlhxe57ka1v64lu92wi63</code></dd><dt class="col-sm-3 text-muted">Container ID</dt><dd class="col-sm-9"><code>f71975b8b2c0796246e9d128a1bfac2fa048b71c1739e0d02ee7fbad256cda38</code></dd><dt class="col-sm-3 text-muted">Created at</dt><dd class="col-sm-9">2020-12-18T09:48:56.752696+00:00</dd><dt class="col-sm-3 text-muted">Updated at</dt><dd class="col-sm-9">2020-12-18T09:49:03.655414+00:00</dd><dt class="col-sm-3 text-muted">Started at</dt><dd class="col-sm-9">2020-12-18T09:49:16.842006+00:00</dd></dl></div></div></div></div><div class="row mt-2"><div class="col"><div class="row"></div></div></div><div class="row mt-2"><div class="col"><div class="card"><div class="card-body small bg-light"><h5 class="card-title">Logs</h5><h6 class="card-subtitle mb-2 text-muted">Snapshot of the most recent log entries</h6><pre class="mb-0 ">clock_clock_error.1.yz1ytlhxe57k@manager1    | + : 5
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + case "$1" in
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + wait_init
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + print_section 'Waiting for base services'
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + echo
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + echo '###' Waiting for base services
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + echo
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + wotemu wait --waiter-base
+clock_clock_error.1.yz1ytlhxe57k@manager1    | 
+clock_clock_error.1.yz1ytlhxe57k@manager1    | ### Waiting for base services
+clock_clock_error.1.yz1ytlhxe57k@manager1    | 
+clock_clock_error.1.yz1ytlhxe57k@manager1    | 2020-12-18 09:49:05 clock_clock_error.1.yz1ytlhxe57ka1v64lu92wi63 wotemu.config[6] DEBUG Configuration environment:
+clock_clock_error.1.yz1ytlhxe57k@manager1    | {'DOCKER_PROXY_URL': 'tcp://docker_api_proxy:2375/',
+clock_clock_error.1.yz1ytlhxe57k@manager1    |  'MQTT_BROKER_HOST': None,
+clock_clock_error.1.yz1ytlhxe57k@manager1    |  'PORT_CATALOGUE': '9090',
+clock_clock_error.1.yz1ytlhxe57k@manager1    |  'PORT_COAP': '5683',
+clock_clock_error.1.yz1ytlhxe57k@manager1    |  'PORT_HTTP': '80',
+clock_clock_error.1.yz1ytlhxe57k@manager1    |  'PORT_MQTT': '1883',
+clock_clock_error.1.yz1ytlhxe57k@manager1    |  'PORT_WS': '81',
+clock_clock_error.1.yz1ytlhxe57k@manager1    |  'REDIS_URL': 'redis://redis'}
+clock_clock_error.1.yz1ytlhxe57k@manager1    | 2020-12-18 09:49:05 clock_clock_error.1.yz1ytlhxe57ka1v64lu92wi63 wotemu.config[6] INFO Current configuration: EnvConfig(port_catalogue=9090, port_http=80, port_coap=5683, port_ws=81, port_mqtt=1883, mqtt_broker_host=None, mqtt_url=None, redis_url='redis://redis', docker_proxy_url='tcp://docker_api_proxy:2375/')
+clock_clock_error.1.yz1ytlhxe57k@manager1    | 2020-12-18 09:49:05 clock_clock_error.1.yz1ytlhxe57ka1v64lu92wi63 wotemu.cli.waiter[6] INFO Waiting for Docker API (tcp://docker_api_proxy:2375/) and Redis (redis://redis)
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + wait_gateways
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + print_section 'Waiting for gateways (5s)'
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + echo
+clock_clock_error.1.yz1ytlhxe57k@manager1    | 
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + echo '###' Waiting for gateways '(5s)'
+clock_clock_error.1.yz1ytlhxe57k@manager1    | ### Waiting for gateways (5s)
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + echo
+clock_clock_error.1.yz1ytlhxe57k@manager1    | 
+clock_clock_error.1.yz1ytlhxe57k@manager1    | + sleep 5</pre></div></div></div></div></div></div>
+  </body>
+</html>
